@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <style>
+        label, input, select, textarea, button {
+          display: block;
+          margin-bottom: 10px; /* Her öğe arasında boşluk bırakmak için */
+        }
+      </style>
+      
+    <form>
+        <label for="name">Ad:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="surname">Soyad:</label>
+        <input type="text" name="surname" id="surname">
+
+        <label for="password">Parola:</label>
+        <input type="password" name="password" id="password">
+
+        <label for="male">Erkek</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">Kadın</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="fruit">Favori Meyveniz:</label>
+        <select name="fruit" id="fruit">
+            <option value="apple">Seçiniz...</option>
+            <option value="apple">Elma</option>
+            <option value="orange">Portakal</option>
+            <option value="banana">Muz</option>
+            <option value="watermelon">Karpuz</option>
+            <option value="melon">Kavun</option>
+            <option value="strawberry">Çilek</option>
+        </select>
+
+        <label for="message">Mesaj Giriniz:</label>
+        <textarea name="message" id="message" style="width: 200px; height: 100px;"></textarea>
+
+        <button type="submit">Gönder</button>
+
+    </form>
+</body>
+</html>
