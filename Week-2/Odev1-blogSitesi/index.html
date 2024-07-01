@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Blog</title>
+</head>
+
+
+<body>
+  
+  <div class="header">
+    <h1>BLOG SİTESİ</h1>
+
+    <div id="navbar">
+      <a class="active" href="javascript:void(0)">Ana Sayfa</a>
+      <a href="post.html" target="_blank">Blog Gönderisi</a>
+    </div>
+  </div>
+  
+  
+  
+  <div class="content">
+      <article>
+        <h2>Son Gönderiler</h2>
+        
+      <div class="col-6">
+        <div class="blog-post">
+          <img src="./image/foto1.jpg" width="380" height="250">
+          <h3>Blog Gönderisi Başlığı</h3>
+          <p>Bu, blog gönderisi özetidir. Daha fazlasını okumak için <br> başlığa tıklayın...</p>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="blog-post">
+          <img src="./image/foto2.jpg" width="380" height="250">
+          <h3>Başka Bir Blog Gönderisi</h3>
+          <p>Bu, başka bir blog gönderisi özetidir. Daha fazlasını okumak için <br> başlığa tıklayın...</p>
+        </div>  
+      </div>  
+  
+        </article>
+        <footer>
+          <p>© 2024 Blog Sitesi</p>
+        </footer>
+        
+  </div>
+
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>

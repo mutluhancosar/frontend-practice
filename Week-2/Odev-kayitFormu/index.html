@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form for CSS Practice</h1>
+    
+
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <label for="email" id="email-label">Mail:</label>
+        <input type="email" id="email" placeholder="Mail" required>
+
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" placeholder="Age" min="18" max="100" required>
+
+        <label for="dropdown" id="dropdown-label">Select Gender:</label>
+        <select id="dropdown" required>
+            <option value="secenek1">Male</option>
+            <option value="secenek2">Female</option>
+        </select>
+
+        <fieldset>
+            <legend>Choose topic:</legend>
+            <label>
+                <input type="radio" name="interest" value="tech"> Football
+            </label>
+            <label>
+                <input type="radio" name="interest" value="art"> Basketball
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Area of Interest:</legend>
+            <label>
+                <input type="checkbox" value="terms"> Attack
+            </label>
+            <label>
+                <input type="checkbox" value="newsletter"> Defence
+            </label>
+        </fieldset>
+
+        <label for="comments">Comment:</label>
+        <textarea id="comments" rows="4" placeholder="You can add a comment"></textarea>
+
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
