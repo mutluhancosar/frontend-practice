@@ -1,0 +1,181 @@
+/* navbar */
+
+.navbar {
+  justify-content: center;
+}
+
+.navbar-brand, .navbar-nav, .form-inline {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-brand img {
+    height: 30px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #000;
+  }
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 1.2em;
+  }
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
+  /* body left */
+
+  .container .border{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    height: 416px;
+  }
+
+  .col-3 img {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 25px auto;
+  }
+
+  /* body middle */
+
+  .post-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.post-input-container img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.post-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.post-actions {
+    display: flex;
+    align-items: center;
+}
+.post-actions .btn {
+    margin: 0 5px;
+}
+.post-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post-header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.post-header .post-info {
+    flex-grow: 1;
+}
+.post-header .post-info h6 {
+    margin: 0;
+}
+.post-header .post-info small {
+    display: block;
+}
+.post-header .post-actions {
+    margin-left: auto;
+}
+.post-image {
+    margin-top: 10px;
+    text-align: center;
+}
+.post-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.interaction-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 10px 0;
+}
+.interaction-bar .interactions {
+  display: flex;
+  align-items: center;
+}
+.interaction-bar .interactions img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.interaction-bar .interaction-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.interaction-bar .interaction-buttons button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+}
+.interaction-bar .interaction-buttons button i {
+  margin-right: 5px;
+}
+
+/* body right */
+
+.akis {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+}
+.akis-icerik {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.akis-icerik img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.akis-icerik .btn {
+  margin-left: auto;
+}
+.view-more {
+  text-align: right;
+}

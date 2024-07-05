@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="img/linkedin.png" alt="LinkedIn Logo"></a>
+        <form class="form-inline my-2 my-lg-0">
+            <input type="search" class="form-control mr-sm-2" placeholder="Arama yap" aria-label="search">
+        </form>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i><span class="sr-only">(current)</span> Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-users"></i> Ağım <span class="badge badge-danger">2</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-briefcase"></i> İş İlanları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-comment-dots"></i> Mesajlaşma <span class="badge badge-danger">1</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-bell"></i> Bildirimler <span class="badge badge-danger">8</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Ben
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Profilim</a>
+                  <a class="dropdown-item" href="#">Ayarlar</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Çıkış Yap</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+    </nav>
+
+    <!-- body left -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3 border">
+          <img src="img/me.jpeg" alt="pp">
+          <h2>Mutluhan Coşar</h2>
+          <p>Bilgisayar Mühendisi at 112 AÇMM</p>
+          <hr>
+          <h6>Profil görüntüleyenler</h6> <p>41</p>
+          <h6>Gönderi gösterim sayısı</h6> <p>52</p>
+        </div>
+
+      <!-- body middle -->
+
+        <div class="col-6">          
+          <div class="container">
+            <!-- Post Input Section -->
+            <div class="post-input-container">
+                <img src="img/me.jpeg" alt="User Image">
+                <input type="text" class="post-input" placeholder="Gönderi başlat">
+                <div class="post-actions">
+                    <button class="btn btn-outline-primary"><i class="fas fa-image"></i> Medya</button>
+                    <button class="btn btn-outline-warning"><i class="fas fa-calendar-alt"></i> Etkinlik</button>
+                    <button class="btn btn-outline-danger"><i class="fas fa-pencil-alt"></i> Yazı yaz</button>
+                </div>
+            </div>
+
+            <!-- Post Display Section -->
+            <div class="post-container">
+                <div class="post-header">
+                    <img src="img/patikaProfil.png" alt="Patika.dev Logo">
+                    <div class="post-info">
+                        <h6>Patika.dev</h6>
+                        <small>87.790 takipçi • 8 dakika</small>
+                    </div>
+                    <div class="post-actions">
+                        <button class="btn btn-link">...</button>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Ödüllü Frontend Dev Challange! 🚀
+
+                      Frontend alanında kendini kanıtlayarak uluslararası projelerde yer alma fırsatı yakalamak ve para ödülü kazanmak istiyorsan:
+                      ✅ Frontend Dev Challange'a başvur,
+                      🧑‍💻 Workshoplara katıl,
+                      💰 $1000 - $2000'lık Challenge'ları çöz,
+                      🌐 Ödül kazanma ve uluslararası projelerde iş bulma fırsatı yakala!
+                      
+                      🔗 <a href="https://lnkd.in/dPzwFQVj">https://lnkd.in/dPzwFQVj</a>
+                      
+                      Bu fırsattan haberdar olmasını istediğin arkadaşını etiketlemeyi unutma! 😉</p>
+                </div>
+                <div class="post-image">
+                    <img src="img/patika.png" alt="Patika Post Image">
+                </div>
+                <div class="interaction-bar">
+                  <div class="interactions">
+                      <img src="img/like.png" alt="Like Icon">
+                      <span>169</span>
+                  </div>
+                  <span>1 yorum • 6 paylaşım</span>
+              </div>
+              <div class="interaction-bar interaction-buttons">
+                  <button><i class="fas fa-thumbs-up"></i> Beğen</button>
+                  <button><i class="fas fa-comment-alt"></i> Yorum Yap</button>
+                  <button><i class="fas fa-share"></i> Paylaş</button>
+                  <button><i class="fas fa-bookmark"></i> Kaydet</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+      <!-- body right -->
+
+        <div class="col-3">
+            <div class="container">
+              <div class="akis">
+                  <h6>Akışınıza ekleyin</h6>
+                  <div class="akis-icerik">
+                    <img src="img/cakaldereyazilim_logo.jpg" alt="Çakaldere Yazılım Logo">
+                    <div>
+                        <div>Çakaldere Yazılım</div>
+                        <small>Şirket • Yazılım Geliştirme</small>
+                    </div>
+                    <button class="btn btn-outline-primary btn-sm">+ Takip Et</button>
+                </div>
+                  <div class="akis-icerik">
+                      <img src="img/cakaldereyazilim_logo.jpg" alt="Çakaldere Yazılım Logo">
+                      <div>
+                          <div>Çakaldere Yazılım</div>
+                          <small>Şirket • Yazılım Geliştirme</small>
+                      </div>
+                      <button class="btn btn-outline-primary btn-sm">+ Takip Et</button>
+                  </div>
+                  <div class="akis-icerik">
+                    <img src="img/cakaldereyazilim_logo.jpg" alt="Çakaldere Yazılım Logo">
+                    <div>
+                        <div>Çakaldere Yazılım</div>
+                        <small>Şirket • Yazılım Geliştirme</small>
+                    </div>
+                    <button class="btn btn-outline-primary btn-sm">+ Takip Et</button>
+                </div>
+                  <div class="view-more">
+                      <a href="#">Tüm tavsiyeleri görüntüle →</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

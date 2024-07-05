@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* navbar  */
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    margin-left: 150px;
+}
+.form-control {
+    max-width: 300px;
+}
+.navbar-nav{
+    margin-right: 200px;
+}
+.navbar-nav .nav-link {
+    font-size: 1.5em;
+}
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* body */
+
+.stories img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post .pp{
+    width: 70px;
+    height: auto;
+}
+
+.suggestions .profile-pic {
+    width: 40px;
+    height: 40px;
+}
+.suggestions .suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.suggestions .suggestion div {
+    margin-left: 10px;
+}
