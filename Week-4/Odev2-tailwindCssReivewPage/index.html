@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css">
+   
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>TailwindCssReviewPage</title>
+  </head>
+  <body>
+    <nav class="flex items-center justify-between p-4 m-auto bg-slate-100 border-t-zinc-950">
+        <div class="flex ml-12 space-x-4">
+            <a href="#" class="text-purple-600 underline underline-offset-8">Link</a>
+            <a href="#" class="underline underline-offset-8">Link</a>
+            <a href="#" class="underline underline-offset-8">Link</a>
+        </div>
+        
+        <div class="flex items-center space-x-4">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAdhJREFUSEvVlk8rBVEchp9b/mywEaV8AikLKRtrFihZsJEFSpLyCfAJUBZEShaipLDA1kbJQpEvoCTZkAVZmFdnajqdmTkz93Zv99StmTO/Oc/v7zu3QIVWoUJcqho8BrwCt8CXbwZLEfEH0AjsADPlAncAjwY2BeyWCyyYItWSE0/lAgsq+CfQ5AuVXbE1VpoV6SUwUGrwPNAJzFoHq6HUWFrLQRAr5noTeAA2khxJirjO1G/CHKCODeuprX7gwjzT9RUwDWybvX1z/+NyIA7cBpwFv27z0hswClxHDlGUS+Ze9VWd+4BjoMXs3wFDwIsNd4F7gVOPlxWtIlWdVYpwuZweDnrgJgq3warnKlDjka4k4bDL9AssRuseBY8DBwaouiwAWzEN4iscc8AaUGvOkbwe2eOUBewrHJqEdUAZ0HKC9cA31WnCkSnVYVbVmSdAc0JnJgmH3VzvwIg1EbHK1Q6cBw50OcYpTjhkao/TPTAYzPOzzziFNvXAnqmL9kIBcQlH+E5UQA6BSeA7i4BEbW3JdAlH1L5oyYyZpH+ZdAlHnL1zP8/XKdc/jiw1dnnqKxyp0WeN2Fc4Sg5OE45UYGiQNeIGoAdoBTQuuVdWcG5Qsc1V/eA/s8puH/ZQbs0AAAAASUVORK5CYII="/>
+        </div>
+        
+        <div class="flex items-center mr-12 space-x-4">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoZJREFUSEvllknIjlEUx39fxiwsbAyfKZEhURbfAgspJGxkKoVMoS8lEdlYsUCGIsocKbJgIWxYUTYoylQkUyKFMg/nr/PoerzPc+/71OtbOLv3fc49v3vPPed/bhNtZE1txCUV3BFoAQYBPYDnwAPgGvC5yuZj4H7AVmAq0LkG4ANwBlgDPKlnA2XgFcB2QKeN2SdgGXA45ph9LwLrlKvd6auldy9wCbgLPAQGAEOA8cBSoJ37brCNbkqB1wIvB/b4Yt3jFOBeSbARdv/ngGb3mQ2cjMHz4KHATaCDn24s8CoWBOgNXAH6AO+BwZaJZ2Xr8uALFmCiV6oWP0qAZi4jgevwq1OO2pXMTwV3A1678w5gVR3QzPUEMAd4Cyjet6IY4YlnAKfccTRwtQJ4ZnC/pTFC8Epgp8O6WlW/qwDu71WvpQuAIyknXh+0QvuyNJVsqBPw0b+vBbakgNWP+9yxpwnCiwon7gU89XWzgqv7K1SY6gnARfeYDJyvAJ4GnPV1w4HbKSfuArxxidxvO19SAXwMmAv8cG0vHCD5Pj4NTAe+W3UOcxFJ5auPb7jzARsai1P7WH7SYKVHk0hyOQZ4mUDu68ol2ZQWaHwqe4VWS6sXmQQq1bLH1s+TTBTulMQY5Vrd3X12m8y2xjZbNJ02W1us88WaThoal4PpJDnVVYzzlObjaPMH6z1x5q8ptQtQT8fsiz8IpH6ZlcJjLxDd+TZA7SVxyJu0+JD9udH7d6FNKBVWFB4DZwEE1ZtroL+5NLXuA7cCpcp883D91ub+sFRwLNX574KpQBVfrTnPKv146NQosBghXFWuav9tjQQLIvVTT2tg/JNUR6+m0Scu3MD/B/4JVp9tH2VWMqoAAAAASUVORK5CYII="/>
+            <input type="search" placeholder="Search...">
+            <button class="px-4 py-2 text-white bg-purple-600 rounded-sm">Log in</button>
+        </div>
+    </nav>
+
+    <div class="container flex flex-col items-center gap-5 p-24 text-center bg-slate-400">
+        <h1 class="text-4xl font-bold">Quisquam necessita <br> vel <span class="text-purple-500">laborum <br> dolorubus</span>delectus</h1>
+
+        <p class="">Cupiditate minima voluptate temporibus quia? <br>
+        Architecto beatae esse ab amet vero eaque explicabo!</p>
+
+        <div class="container">
+            <button class="px-4 py-2 mr-2 text-white bg-purple-600 rounded-sm">Get started</button>
+            <button>Lean more</button>
+        </div>
+    </div>
+
+    <div class="bg-slate-100">
+
+    <h1 class="text-2xl font-bold text-center mb-7">What our customers are saying about us</h1>
+
+
+    <div class="grid max-w-4xl grid-cols-1 grid-rows-2 gap-6 p-6 m-auto text-center sm:grid-cols-2">
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <div class="p-6">
+                <div class="text-center text-gray-800">
+                    <p class="text-lg leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                </div>
+                <div class="flex items-center justify-center mt-4 text-center bg-purple-900">
+                    <div class="ml-4 text-white">
+                        <p class="text-xl font-bold">Distinctio Animi</p>
+                        <p class="text-sm">ALIQAM ILLUM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <div class="p-6">
+                <div class="text-center text-gray-800">
+                    <p class="text-lg leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                </div>
+                <div class="flex items-center justify-center mt-4 bg-purple-900">
+                    <div class="ml-4 text-white">
+                        <p class="text-xl font-bold">Distinctio Animi</p>
+                        <p class="text-sm">ALIQAM ILLUM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <div class="p-6">
+                <div class="text-center text-gray-800">
+                    <p class="text-lg leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                </div>
+                <div class="flex items-center justify-center mt-4 bg-purple-900">
+                    <div class="ml-4 text-white">
+                        <p class="text-xl font-bold">Distinctio Animi</p>
+                        <p class="text-sm">ALIQAM ILLUM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overflow-hidden bg-white rounded-lg shadow-md">
+            <div class="p-6">
+                <div class="text-center text-gray-800">
+                    <p class="text-lg leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                </div>
+                <div class="flex items-center justify-center mt-4 bg-purple-900">
+                    <div class="ml-4 text-white">
+                        <p class="text-xl font-bold">Distinctio Animi</p>
+                        <p class="text-sm">ALIQAM ILLUM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container flex items-center justify-center bg-slate-400 p-7">
+        <div class="items-center justify-center w-2/6 p-8 m-auto bg-white border-solid rounded-sm shadow h-96 border-zinc-400">
+
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <h1 class="mb-2 text-2xl font-bold">Contact us</h1>
+
+                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" placeholder="Your name" id="name" name="name" class="block w-full p-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" placeholder="Your email" id="email" name="email" class="block w-full p-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div>
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" placeholder="Message..." name="message" class="block w-full p-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="w-full p-2 text-white bg-purple-600 rounded-md shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">Send</button>
+            </div>
+        </form>
+
+        </div>
+    </div>
+
+    <footer>
+        <footer class="py-4 text-white bg-slate-400">
+            <div class="container flex items-center justify-between mx-auto p-7">
+                <div class="flex ml-20 space-x-4">
+                    <a href="#" class="text-gray-900 hover:text-white">Shop</a>
+                    <a href="#" class="text-gray-900 hover:text-white">About</a>
+                    <a href="#" class="text-gray-900 hover:text-white">Blog</a>
+                    <a href="#" class="text-gray-900 hover:text-white">Pricing</a>
+                    <a href="#" class="text-gray-900 hover:text-white">Contact</a>
+                </div>
+                <div class="flex mr-20 space-x-4">
+                    <a href="https://instagram.com" target="_blank" class="text-purple-600 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.309.975.975 1.248 2.243 1.309 3.609.058 1.265.07 1.645.07 4.849 0 3.204-.012 3.584-.07 4.849-.062 1.366-.334 2.633-1.309 3.608-.975.975-2.242 1.248-3.608 1.309-1.266.058-1.646.07-4.85.07-3.204 0-3.584-.012-4.849-.07-1.366-.062-2.633-.334-3.608-1.309-.975-.975-1.248-2.242-1.309-3.608-.058-1.265-.07-1.645-.07-4.849 0-3.204.012-3.584.07-4.849.062-1.366.334-2.633 1.309-3.608.975-.975 2.242-1.248 3.608-1.309 1.265-.058 1.645-.07 4.849-.07m0-2.163c-3.259 0-3.667.015-4.947.072-1.341.062-2.58.354-3.608 1.382-1.028 1.028-1.32 2.267-1.382 3.608-.057 1.28-.072 1.688-.072 4.947 0 3.259.015 3.667.072 4.947.062 1.341.354 2.58 1.382 3.608 1.028 1.028 2.267 1.32 3.608 1.382 1.28.057 1.688.072 4.947.072 3.259 0 3.667-.015 4.947-.072 1.341-.062 2.58-.354 3.608-1.382 1.028-1.028 1.32-2.267 1.382-3.608.057-1.28.072-1.688.072-4.947 0-3.259-.015-3.667-.072-4.947-.062-1.341-.354-2.58-1.382-3.608-1.028-1.028-2.267-1.32-3.608-1.382-1.28-.057-1.688-.072-4.947-.072zM12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.324c-2.294 0-4.162-1.868-4.162-4.162s1.868-4.162 4.162-4.162 4.162 1.868 4.162 4.162-1.868 4.162-4.162 4.162zm6.406-11.845c-.796 0-1.44.644-1.44 1.44s.644 1.44 1.44 1.44 1.44-.644 1.44-1.44-.644-1.44-1.44-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://pinterest.com" target="_blank" class="text-purple-600 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.627 0-12 5.373-12 12 0 4.84 3.021 8.982 7.35 10.749-.102-.916-.193-2.326.04-3.328.211-.9 1.361-5.739 1.361-5.739s-.348-.694-.348-1.718c0-1.61.933-2.812 2.092-2.812.986 0 1.461.739 1.461 1.623 0 .989-.629 2.466-.953 3.837-.271 1.151.576 2.089 1.709 2.089 2.051 0 3.63-2.162 3.63-5.28 0-2.759-1.983-4.685-4.806-4.685-3.274 0-5.192 2.457-5.192 4.991 0 .989.382 2.053.86 2.631.094.113.108.213.08.326-.088.355-.285 1.139-.323 1.296-.053.221-.174.269-.403.163-1.498-.698-2.431-2.889-2.431-4.65 0-3.792 2.755-7.274 7.935-7.274 4.161 0 7.394 2.968 7.394 6.932 0 4.125-2.599 7.448-6.207 7.448-1.212 0-2.353-.629-2.742-1.374l-.744 2.832c-.27 1.083-1.004 2.437-1.496 3.266 1.127.349 2.317.539 3.564.539 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-purple-600 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.72 0-4.927 2.206-4.927 4.926 0 .386.043.762.128 1.124-4.094-.205-7.725-2.165-10.148-5.144-.425.728-.666 1.574-.666 2.476 0 1.71.87 3.213 2.191 4.096-.807-.026-1.567-.247-2.228-.616v.062c0 2.388 1.697 4.382 3.946 4.832-.413.111-.849.171-1.296.171-.317 0-.626-.031-.929-.088.631 1.953 2.458 3.376 4.621 3.414-1.694 1.328-3.826 2.119-6.146 2.119-.399 0-.793-.023-1.182-.069 2.191 1.404 4.794 2.221 7.595 2.221 9.112 0 14.098-7.544 14.098-14.097 0-.215-.004-.429-.014-.642.968-.698 1.8-1.566 2.462-2.555z"/>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="text-purple-600 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .732.592 1.324 1.325 1.324h11.494v-9.294h-3.115v-3.622h3.115v-2.671c0-3.1 1.894-4.788 4.662-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.503 0-1.793.714-1.793 1.761v2.314h3.587l-.467 3.622h-3.12v9.294h6.116c.732 0 1.324-.592 1.324-1.324v-21.351c0-.733-.592-1.325-1.324-1.325z"/>
+                        </svg>
+                    </a>
+                    <a href="https://google.com" target="_blank" class="text-purple-600 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M21.35 11.104h-9.34v2.895h5.882c-.662 3.374-3.566 5.598-6.992 5.598-3.942 0-7.14-3.198-7.14-7.14s3.198-7.14 7.14-7.14c1.827 0 3.489.684 4.779 1.802l2.159-2.159c-1.907-1.754-4.404-2.83-7.24-2.83-5.73 0-10.387 4.657-10.387 10.387s4.657 10.387 10.387 10.387c5.173 0 9.629-3.845 10.276-8.944v-.002-.002c.04-.263.068-.53.068-.799v-1.15z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    
+  </body>
+</html>
+
+
